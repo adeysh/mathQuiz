@@ -91,3 +91,60 @@ body {
     gap: 20px;
     width: 100%;
 }
+
+/* media queries */
+
+@media (max-width: 768px) {
+    .container {
+        width: 500px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 400px;
+        height: 250px;
+    }
+
+    .container h2 {
+        font-size: 28px;
+    }
+
+    .container h3 {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .container input {
+        font-size: 16px;
+    }
+
+    .container button {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 300px;
+        height: 300px;
+    }
+
+    .container h2 {
+        font-size: 22px;
+    }
+
+    .container h3 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .container input {
+        font-size: 12px;
+    }
+
+    .container button {
+        font-size: 12px;
+    }
+}
